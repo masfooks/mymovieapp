@@ -50,7 +50,7 @@ const App = () => {
     if (!movieDataSearch.includes(movie.imdbID)) {
       setFavourites(newFavouriteList);
       saveToLocalStorage(newFavouriteList);
-      console.log('added')
+      console.log("added");
     }
   };
 
